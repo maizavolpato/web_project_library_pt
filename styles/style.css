@@ -88,7 +88,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
-  background-size: 1390px;
+  background-size: 1440px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -119,6 +119,7 @@
   justify-content: center;
   gap: 40px;
   list-style-type: none;
+  align-items: center;
 }
 
 .card {
