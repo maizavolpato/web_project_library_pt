@@ -88,7 +88,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -114,6 +114,7 @@
 .staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
