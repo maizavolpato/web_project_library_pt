@@ -310,11 +310,11 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
-  width: 200px;
-  margin: 40px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -335,7 +335,7 @@
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   box-sizing: border-box;
   padding: 60px 80px;
@@ -359,6 +359,7 @@
 }
 
 .footer__column-heading {
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -374,7 +375,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
-  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
